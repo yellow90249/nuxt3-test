@@ -1,5 +1,10 @@
 <template>
-  <ProductDetail :product="product"></ProductDetail>
+  <div>
+    <Head>
+        <Title>GaryDev | {{ product.title }}</Title>
+    </Head>
+    <ProductDetail :product="product"></ProductDetail>
+  </div>
 </template>
 
 <script setup>

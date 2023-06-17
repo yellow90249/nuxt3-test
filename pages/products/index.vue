@@ -11,7 +11,9 @@
 <script setup>
 // fetch the products
 const { data: products } = await useFetch('https://fakestoreapi.com/products');
-const foo = 123;
+useHead({
+  title: 'GaryDev | 商品',
+});
 </script>
 
 <style lang="scss" scoped></style>
