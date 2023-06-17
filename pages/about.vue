@@ -14,8 +14,10 @@
 
 <script setup>
 useHead({
-  title:'GaryDev | 關於'
-})
+  title: 'GaryDev | 關於',
+});
+
+
 </script>
 
 <style lang="scss" scoped></style>

@@ -14,6 +14,6 @@
 
 <script setup>
 useHead({
-  title:'GaryDev | 主頁'
-})
+  title: 'GaryDev | 主頁',
+});
 </script>
