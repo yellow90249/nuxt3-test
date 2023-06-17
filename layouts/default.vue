@@ -1,16 +1,18 @@
 <template>
   <div>
-    <header>
-      <NuxtLink to="/">Nuxt Dojo</NuxtLink>
-      <ul>
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/about">About</NuxtLink></li>
-        <li><NuxtLink to="/product">Product</NuxtLink></li>
-      </ul>
+    <header class="shadow-sm bg-white">
+      <nav class="container mx-auto p-4 flex justify-between">
+        <NuxtLink to="/" class="font-bold">Gary's Nuxt Project</NuxtLink>
+        <ul class="flex gap-4">
+          <li><NuxtLink to="/">Home</NuxtLink></li>
+          <li><NuxtLink to="/about">About</NuxtLink></li>
+          <li><NuxtLink to="/products" class="btn">Product</NuxtLink></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- output our page content -->
-    <div>
+    <div class="container mx-auto p-4">
       <slot></slot>
     </div>
   </div>
@@ -18,6 +20,6 @@
 
 <style scoped>
 .router-link-exact-active {
-  color: #12b488;
+  color: #4bbebe;
 }
 </style>
