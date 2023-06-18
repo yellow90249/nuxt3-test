@@ -17,3 +17,7 @@ useHead({
   title: 'GaryDev | 主頁',
 });
 </script>
+
+<style scoped>
+
+</style>

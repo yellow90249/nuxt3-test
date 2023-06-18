@@ -14,3 +14,8 @@ body {
     @apply p-3 rounded-md bg-white shadow-md h-full;
   }
 }
+
+h2,h3,
+p,a {
+  color: rgb(44, 62, 80);
+}
