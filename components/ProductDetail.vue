@@ -7,7 +7,7 @@
       <div class="p-7">
         <h2 class="text-4xl my-7">{{ product.title }}</h2>
         <p class="text-2xl my-7">${{ product.price }}</p>
-        <h3 class="font-bold border-b-2 mb-2 pb-2">商品描述：</h3>
+        <h3 class="font-bold border-b-2 mb-2 pb-2">商品描述</h3>
         <p class="mb-7">{{ product.description }}</p>
       </div>
     </div>
