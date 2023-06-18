@@ -21,6 +21,6 @@
 <style scoped>
 .router-link-exact-active,
 .logo {
-  color: #4bbebe;
+  color: #54a0ff;
 }
 </style>

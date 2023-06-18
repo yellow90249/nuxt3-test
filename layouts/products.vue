@@ -23,6 +23,6 @@
 
 <style scoped>
 .router-link-exact-active {
-  color: #4bbebe;
+  color: #54a0ff;
 }
 </style>
